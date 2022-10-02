@@ -1,0 +1,49 @@
+@font-face{
+  font-family: "RetroGraphics";
+  src: url("./fonts/RetroGraphics.ttf") format("truetype");
+}
+
+  .header {
+    /* background-color: brown; */
+    /* height: 150px; */
+    padding: 10px;
+    display: flex; 
+    flex-direction: column;
+    border-bottom: 2px solid #999999;
+   }
+
+   .navContainer{
+    /* background-color:aquamarine; */
+    width: 100%;
+    /* height: 45px; */
+    display: flex; 
+    justify-content: space-between 
+   }
+
+   .linkContainer {
+    /* background-color:black; */
+    display: flex; 
+    justify-content: flex-start;
+    /* width: 40% */
+    /* flex-wrap: wrap */
+   }
+
+   .contactContainer{
+    /* background-color:blueviolet; */
+    display: flex; 
+    justify-content: flex-end;
+    /* width: 20% */
+   }
+
+   p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+
+   h1{
+    /* background-color: bisque; */
+    text-align: center;
+    font: 4em RetroGraphics, sans-serif;
+    margin: 20px 0 0 0; 
+   }
